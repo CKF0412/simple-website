@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+   Author: CHONG KAR FUI 
+   Date:   12-9-2022
+
+   Filename:   delivery.html
+  -->
+
+  <meta charset="UTF-8">
+  <!--Title-->
+  <title>Delivery</title>
+  <!----------------_Stylesheet-------------->
+  <link href="delivery.css" rel="stylesheet">
+  <link href="validation.css" rel="stylesheet">
+  <script src="delivery.js"></script>
+  <!-----Icon------------------------->
+  <link rel="shortcut icon" href="logo.PNG" />
+</head>
+    <body>
+      <!--------------Header--------------------------------------->
+      <header>
+      <div class="img">
+        <a href="home.html"><img src="logo.png" title="Home" alt="home"></a>
+        </div>
+
+        <div class="h-box">
+          <nav>
+            <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="About Us.html">ABOUT US</a></li>
+              <li><a href="#">CATEGORY</a>
+              <ul>
+                <li><a href="Men.html">MEN</a></li>
+                <li><a href="Women.html">WOMEN</a></li>
+                <li><a href="Kids.html">KIDS</a></li>
+              </li>
+              </ul>
+              <li><a href="delivery.html">DELIVERY</a></li>
+              <li><a href="discount.html">DISCOUNT</a></li>
+              <li><a href="membership.html">MEMBERSHIP</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+        <!----Section--1-Order------------------------------------------------------------------------->
+        <section class="order" id="order">
+            <div class="o-content">
+              <h1>Order Your Clothes Now</h1>
+              <p>
+                The Clothes that you think and 
+                you want was appear in our shop.
+              </p>
+              <a href="Men.html">Menu</a>
+            </div>
+            <div class="image1">
+              <img src="clothes.png" alt="" />
+            </div>
+          </section>
+
+
+          <!--------Section-2-delivery-------------------------------------------------------------------------------------------->
+          <section class="delivery" id="delivery">
+            <div class="image2">
+              <img src="delivery.png" alt="" />
+            </div>
+            <div class="d-content">
+              <h3>Delivery Service</h3>
+              <p>
+                Our delivery was anytime and anywhere.You can purchase
+                from anywhere that you are living.Product will arrived 
+                your house within 8 days after making payment.
+              </p>
+              <a href="faq.html">More Info</a>
+            </div>
+          </section>
+
+
+          <!----------Section-2-member---------------------------------------------------------------------------------------------->
+          <section class="member" id="member">
+            <div class="m-content">
+              <h1>Get Up To 50% Off New Membership</h1>
+              <a href="membership.html">Register Now</a>
+            </div>
+            <div class="image3">
+              <img src="membership.png" alt="" />
+            </div>
+          </section>
+
+          <!----Heading-Delivery-------------------------------------------------------------------------------------------------------->
+          <div class="d-works">
+            <h1>How Delivery Works</h1>
+          </div>
+
+          <div class="audio">
+            <audio controls autoplay>
+              <source src="welcomesong.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+
+          <!-----------Picture-how-delivery-works------------------------------------------------------------------------------------------>
+          <div class="h-container">
+              <div class="box-image">
+                <a href="Man.html"><img src="morder.png" alt="Order" title="Order"></a>
+              </div>
+  
+                <div class="box-image2">
+                  <a href="payment.html"><img src="mpayment.png" alt="Payment" title="Payment"></a>
+              </div>
+  
+              <div class="box-image3">
+                <a href="#"><img src="delivery1.png" alt="order" title="Delivery"></a>
+              </div>
+  
+              <div class="box-image4">
+                <a href="#"><img src="arrive.png" alt="order" title="Home"></a>
+              </div>
+          </div>
+
+          <!-------Answer-------------------------------------------------------------------------------------------------------------------->
+          <div class="ans-hwork">
+            <h6>You Select Your Item</h6>
+            <h6>You Make Payment</h6>
+            <h6>Our Employee Deliver Order</h6>
+            <h6>Order Arrived Your Place</h6>
+          </div>
+
+          <!---Delivery---Video-------------------------------------------------------------------------------------------------------------->
+          <div class="v-box">
+            <video controls poster="poster.png">
+              <source src="delivery video.mp4" type="video/mp4"/>
+              <track king="captions" label="Video Captions"
+              src="delivery_captions.vtt" default />
+              <p>Upgrade your browser to HTML5</p>
+            </video>
+          </div>
+
+          <!----Heaading-----Details---------------------------------------------------------------------------------------------------->
+          <div class="d-form">
+            <h1>Delivery Details</h1>
+            <div class="line"></div>
+        </div>
+
+        <!--------Form-submit--------------------------------------------------------------------------------------------------------------->
+          <form action="payment.html">
+            <div class="df-block ">
+              <div class="df-box">
+                <label for="nameBox">Name *</label><br>
+                <input name="viewName" id="nameBox1" required
+                placeholder="" type="text"  />
+                <input name="viewName" id="nameBox2" required
+                placeholder="" type="text" />
+            
+  
+               <div class="box-firstName">
+                <h6>First Name</h6>
+                <h6>Last Name</h6>
+               </div>
+
+               <div class="a-box">
+                <label for="addressBox">Address *</label><br>
+                <input name="adDetail" id="addressBox" required
+                placeholder="Street Address" type="text" /><br>
+                <input name="adDetail" id="addressBox" required
+                placeholder="Street Address Line 2" type="text" /><br>
+                <input name="adDetail" id="cityBox" required
+                placeholder="City" type="text" />
+                <input name="adDetail" id="stateBox" required
+                placeholder="State" type="text" /><br>
+                <input name="adDetail" id="codeBox" required
+                placeholder="Postal" type="text" />
+                <input name="adDetail" id="countryBox" required
+                placeholder="Country" type="text" />
+               </div>
+
+               <div class="b-phone">
+                <label for="phoneBox">Phone :</label><br>
+                <input name="viewPhone" id="phoneBox" required pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+                placeholder="xxx-xxx xxxx" type="tel"/>
+               </div>
+
+               <div class="b-email">
+                <label for="emailBox">Email :</label><br>
+                <input name="viewEmail" id="emailBox"
+                placeholder="xxx@gmail.com" type="email"/>
+            </div>
+
+            <div class="box-info">
+              <p>Additional Information :</p>
+          </div>
+
+          <div class="infoans">
+              <input name="reviewText" id="infoans"
+              placeholder="Type here..." type="text" />
+          </div>
+
+               <div class="box-submit">
+               <input type="submit" value="Continue" onclick= "deliveryForm()">
+               </div>
+
+               <div class="box-reset">
+                <input type="reset" value="Reset">
+               </div>
+              </div>
+              </div>
+          </form>
+
+
+<!---Footer------------------------------------------------------------------------------------>
+<footer>
+  <div class="fcontainer">
+    <div class="f-list">
+      <h4>Category</h4>
+      <ul>
+        <li><a href="Kids.html">Kids</a></li>
+        <li><a href="Men.html">Men</a></li>
+        <li><a href="Women.html">Women</a></li>
+      </ul>
+    </div>
+
+    <div class="f-list">   
+    <h4>Information</h4>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="About Us.html">About Us</a></li>
+      <li><a href="payment.html">Payment</a></li>
+    </ul>
+  </div>
+
+  <div class="f-list">
+    <h4>Service</h4>
+  <ul>
+    <li><a href="feedback.html">Customer feedback</a></li>
+    <li><a href="Customer Service.html">Customer service</a></li>
+    <li><a href="faq.html">Faq</a></li>
+  </ul>
+</div>
+
+<div class="f-list">
+  <h4>Location</h4>
+  <p>No.14 Jalan 15</br>Taman Ehsan Jaya</br>52200</br>Kuala Lumpur</p>
+  </div>
+
+</div>
+</footer>
+</body>
+</html>
