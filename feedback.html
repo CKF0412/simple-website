@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+     Author: CHONG KAR FUI 
+     Date:   12-9-2022
+
+     Filename:   feedback.html
+    -->
+  <meta charset="UTF-8">
+  <!--Title-->
+  <title>Feedback</title>
+  <!----------------_Stylesheet-------------->
+  <link href="feedback.css" rel="stylesheet">
+  <link href="validation.css" rel="stylesheet">
+  <script src="feedback.js"></script>
+  <!-----Icon------------------------->
+  <link rel="shortcut icon" href="logo.PNG" />
+</head>
+    <body>
+      <!--------------Header--------------------------------------->
+      <header>
+        <div class="img">
+          <a href="home.html"><img src="logo.png" title="Home" alt="home"></a>
+          </div>
+  
+          <div class="h-box">
+            <nav>
+              <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="About Us.html">ABOUT US</a></li>
+                <li><a href="#">CATEGORY</a>
+                <ul>
+                  <li><a href="Men.html">MEN</a></li>
+                  <li><a href="Women.html">WOMEN</a></li>
+                  <li><a href="Kids.html">KIDS</a></li>
+                </li>
+                </ul>
+                <li><a href="delivery.html">DELIVERY</a></li>
+                <li><a href="discount.html">DISCOUNT</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+              </ul>
+            </nav>
+        </div>
+       </header>
+
+            <!----------First-heading----------------------------------------------------------------------->
+            <div class="comment">
+                <h1>Feedback Form</h1>
+                <div class="line"></div>
+            </div>
+
+            <!-----Feedback Form--------------------------------------------------------------------------------------------------------->
+            <form action="">
+                <div class="box-center">
+                    <div class="box-button">
+                     <div class="box-label">
+                        <label for="nameBox">Name :</label><br>
+                        <input name="viewName" id="nameBox1" required
+                        placeholder="" type="text"  />
+                        <input name="viewName" id="nameBox2" required
+                        placeholder="" type="text" />
+                    
+    
+                    <div class="box-firstName">
+                        <h6>First Name</h6>
+                        <h6>Last Name</h6>
+                    </div>
+    
+                    <div class="box-gender">
+                        <label for="genderBox">Gender :</label><br>
+                        <select id="genderBox" name="genderBox">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+    
+                    <div class="box-age">
+                        <label for="ageBox">Age :</label><br>
+                        <input name="viewAge" id="ageBox" required
+                        placeholder="x" type="text" />
+                    </div>
+    
+                    <div class="box-phone">
+                        <label for="phoneBox">Phone :</label><br>
+                        <input name="viewPhone" id="phoneBox" required pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+                        placeholder="xxx-xxx xxxx" type="tel"/>
+                    </div>
+    
+                    <div class="box-email">
+                        <label for="emailBox">Email :</label><br>
+                        <input name="viewEmail" id="emailBox" 
+                        placeholder="xxx@gmail.com" type="email"/>
+                    </div>
+    
+                    <div class="box-how">
+                        <p>How do you know our shop?</p>
+                    </div>
+    
+                    <div class="box-ans">
+                        <input name="ans" id="answer1" type="radio" checked />
+                        <label class="answer1">Family</label>
+    
+                        <input name="ans" id="answer2" type="radio" />
+                        <label class="answer2">Friend</label>
+    
+                        <input name="ans" id="answer3" type="radio" />
+                        <label class="answer3">Magazine</label>
+    
+                        <input name="ans" id="answer4" type="radio" />
+                        <label class="answer4">Newspaper</label>
+                    </div>
+    
+                    <div class="box-service">
+                        <p>Overall of our service :</p>
+                    </div>
+    
+                    <div class="box-sans">
+                        <input name="sans" id="sans1" type="radio" checked />
+                        <label class="sans1">Very poor</label>
+    
+                        <input name="sans" id="sans2" type="radio" />
+                        <label class="sans2">Poor</label>
+    
+                        <input name="sans" id="sans3" type="radio" />
+                        <label class="sans3">Good</label>
+    
+                        <input name="sans" id="sans4" type="radio" />
+                        <label class="sans4">Very Good</label>
+                    </div>
+    
+                    <div class="box-review">
+                        <p>What Can We Improve?</p>
+                    </div>
+    
+                    <div class="reans">
+                        <input name="reviewText" id="reans"
+                        placeholder="Please Type here...." type="text" />
+                    </div>
+    
+                    <div class="box-submit">
+                        <input type="submit" value="Submit">
+                    </div>
+
+                    <div class="box-reset">
+                        <input type="reset" value="Reset">
+                       </div>
+                     </div>
+                    </div>
+                </div>
+            </form>
+
+            <!---------------------Comments-------------------------------------------------------------------------------------------->
+            <div class="box-com">
+                <h1>Comments</h1>
+            </div>
+    <main>
+        <!-----Box-container------------------->
+        <div class="box-container">
+            <!----Box1---------------->
+            <div class="box">
+                <!----------top------------>
+                <div class="box-top">
+                    <!---------profile-->
+                    <div class="profile">
+                        <!-------image------>
+                        <div class="profile-img">
+                            <img src="profile1.jpg" />
+                            </div>
+                            <!----username and location----->
+                            <div class="username">
+                                <strong>Tamns Tan</strong>
+                                <span>London</span>
+                            </div>
+                        </div>
+                        <!--------reviews-->
+                        <div class="reviews">
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                        </div>
+
+                    </div>
+                    <!------------Comments P---------------->
+                    <div class="comments">
+                        <p>I just received my order 3 days after I making payment.Shipping was Amazing!!! The clothes that I received is in a good condition.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <!-----Box-container----------------------------------------------------------------------------------------->
+        <div class="box-container">
+
+            <!----Box2---------------->
+            <div class="box">
+                <!----------top------------>
+                <div class="box-top">
+                    <!---------profile-->
+                    <div class="profile">
+                        <!-------image------>
+                        <div class="profile-img">
+                            <img src="profile2.jpg" />
+                            </div>
+                            <!----username and location----->
+                            <div class="username">
+                                <strong>Jason Chan</strong>
+                                <span>Japan</span>
+                            </div>
+                        </div>
+                        <!--------reviews-->
+                        <div class="reviews">
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                        </div>
+
+                    </div>
+                    <!------------Comments P---------------->
+                    <div class="comments">
+                        <p> It's scary to order clothes from online. I was worried about the size will fit to me or not. Fortunely, everything great for me.
+                            I'm ready to purchase second time!!!! I would strongly recommend this online shop to everyone!!</p>
+                    </div>
+                </div>
+            </div>
+
+        <!-----Box-container-------------------------------------------------------------------------------------------------------------->
+        <div class="box-container">
+
+            <!----Box3--------------->
+            <div class="box">
+                <!----------top------------>
+                <div class="box-top">
+                    <!---------profile-->
+                    <div class="profile">
+                        <!-------image------>
+                        <div class="profile-img">
+                            <img src="profile3.jpg" />
+                            </div>
+                            <!----username and location----->
+                            <div class="username">
+                                <strong>James Ng</strong>
+                                <span>Korea</span>
+                            </div>
+                        </div>
+                        <!--------reviews-->
+                        <div class="reviews">
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                        </div>
+
+                    </div>
+                    <!------------Comments P---------------->
+                    <div class="comments">
+                        <p>I saw a youtuber that called "Kiki", what she bought from this store was very interesting so that I think I would buy something from this online shop.</p>
+                    </div>
+                </div>
+            </div>
+
+        <!-----Box-container---------------------------------------------------------------------------------------------------------------->
+        <div class="box-container">
+
+            <!----Box4---------------->
+            <div class="box">
+                <!----------top------------>
+                <div class="box-top">
+                    <!---------profile-->
+                    <div class="profile">
+                        <!-------image------>
+                        <div class="profile-img">
+                            <img src="profile4.jpg" />
+                            </div>
+                            <!----username and location----->
+                            <div class="username">
+                                <strong>Jordon Chin</strong>
+                                <span>Singapore</span>
+                            </div>
+                        </div>
+                        <!--------reviews-->
+                        <div class="reviews">
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                        </div>
+
+                    </div>
+                    <!------------Comments P---------------->
+                    <div class="comments">
+                        <p>OMG!! I love this online shop service. I have ordered third and everything I received was Great!! The shipping time was so quick. It was faster than ordered 
+                           in local shop. I will ordered again until my wish list was complete!! Really can't said how much love that their Clothes and style.</p>
+                    </div>
+                </div>
+            </div>
+
+        <!-----Box-container------------------------------------------------------------------------------------------------------------------->
+        <div class="box-container">
+
+            <!----Box5---------------->
+            <div class="box">
+                <!----------top------------>
+                <div class="box-top">
+                    <!---------profile-->
+                    <div class="profile">
+                        <!-------image------>
+                        <div class="profile-img">
+                            <img src="profile5.jpg" />
+                            </div>
+                            <!----username and location----->
+                            <div class="username">
+                                <strong>Chan Kok Leong</strong>
+                                <span>Malaysia</span>
+                            </div>
+                        </div>
+                        <!--------reviews-->
+                        <div class="reviews">
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                        </div>
+
+                    </div>
+                    <!------------Comments P---------------->
+                    <div class="comments">
+                        <p>I just wanted to say that I really really LIKE this shop. The clothes were always cheaper and reasonable for me as a students to purchase.
+                           Not to mention super great!! Shipping was so fast and I'm very pleased.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <!-----Box-container-------------------------------------------------------------------------------------------------------------------->
+        <div class="box-container">
+
+            <!----Box6---------------->
+            <div class="box">
+                <!----------top------------>
+                <div class="box-top">
+                    <!---------profile-->
+                    <div class="profile">
+                        <!-------image------>
+                        <div class="profile-img">
+                            <img src="profile6.jpg" />
+                            </div>
+                            <!----username and location----->
+                            <div class="username">
+                                <strong>Chan Wei Cheng</strong>
+                                <span>China</span>
+                            </div>
+                        </div>
+                        <!--------reviews-->
+                        <div class="reviews">
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                            <i class=""> &#9733;</i>
+                        </div>
+
+                    </div>
+                    <!------------Comments Paragraph---------------->
+                    <div class="comments">
+                        <p>The processing of my order in this store was quick. After making payment directly can get a code form email.And the shipping was very fast.
+                            I got the items within 2 days and packing was nicely.I would definitely order more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </main>
+
+            <!---------Rating Form------------------------------------------------------------------------------------------------------------------->
+            <div class="box-comment">
+                <h1>Make a Rating?</h1>
+            </div>
+
+            <div class="container-star">
+                <div class="box-out">
+                    <div class="box-star">
+                        <div class="starr">
+                            <form>
+                            <input type="radio" name="rate" id="rate5" required>
+                            <label for="rate5" class="">&#9733;</label>
+                            <input type="radio" name="rate" id="rate4">
+                            <label for="rate4" class="">&#9733;</label>
+                            <input type="radio" name="rate" id="rate3">
+                            <label for="rate3" class="">&#9733;</label>
+                            <input type="radio" name="rate" id="rate2">
+                            <label for="rate2" class="">&#9733;</label>
+                            <input type="radio" name="rate" id="rate1">
+                            <label for="rate1" class="">&#9733;</label>
+                        </div>
+                    </div> 
+
+                    <table class="box-text">
+                        <tr>
+                            <td><input name="comment-text" id="box-text" required 
+                                placeholder="Describe something here...." type="text" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="bt-submit">
+                                    <input type="submit" value="Post" onclick="submitFunction()">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    </form>
+                </div>
+            </div>
+
+
+
+
+<!---Footer------------------------------------------------------------------------------------>
+<footer>
+    <div class="fcontainer">
+      <div class="f-list">
+        <h4>Category</h4>
+        <ul>
+          <li><a href="Kids.html">Kids</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="Women.html">Women</a></li>
+        </ul>
+      </div>
+  
+      <div class="f-list">   
+      <h4>Information</h4>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="payment.html">Payment</a></li>
+      </ul>
+    </div>
+  
+    <div class="f-list">
+      <h4>Service</h4>
+    <ul>
+      <li><a href="feedback.html">Customer feedback</a></li>
+      <li><a href="Customer Service.html">Customer service</a></li>
+      <li><a href="faq.html">Faq</a></li>
+    </ul>
+  </div>
+  
+  <div class="f-list">
+    <h4>Location</h4>
+    <p>No.14 Jalan 15</br>Taman Ehsan Jaya</br>52200</br>Kuala Lumpur</p>
+    </div>
+  
+  </div>
+  </footer>
+ </body>
+ </html>
